@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NusaStat — Portal Statistik Indonesia</title>
+<meta name="description" content="Portal statistik Indonesia: penduduk, ekonomi, perdagangan, wilayah, tenaga kerja dan harga. Angka resmi dengan sumber dan tahun.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23e8a317'/%3E%3Ctext x='16' y='23' font-size='19' font-family='Arial' font-weight='bold' text-anchor='middle' fill='%230b3b4d'%3EN%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip-link" href="#app">Lewati ke konten utama</a>
+<header class="topbar">
+  <div class="wrap topbar-in">
+    <a class="brand" href="#/">
+      <span class="brand-mark" aria-hidden="true">N</span>
+      <span class="brand-text"><strong>NusaStat</strong><small>Portal Statistik Indonesia</small></span>
+    </a>
+    <div class="topbar-side">
+      <label class="searchbox">
+        <span class="sr-only">Cari indikator</span>
+        <input id="global-search" type="search" placeholder="Cari indikator, mis. inflasi, ekspor, Jawa Barat…" autocomplete="off">
+      </label>
+      <span class="updated">Data terakhir: <strong>2024</strong> · diperbarui Nov 2026</span>
+    </div>
+  </div>
+  <nav class="mainnav" aria-label="Bagian utama">
+    <div class="wrap nav-in" id="main-nav">
+      <a href="#/" data-route="overview">Ringkasan</a>
+      <a href="#/population" data-route="population">Penduduk</a>
+      <a href="#/economy" data-route="economy">Ekonomi</a>
+      <a href="#/trade" data-route="trade">Perdagangan</a>
+      <a href="#/regions" data-route="regions">Wilayah</a>
+      <a href="#/labour" data-route="labour">Tenaga Kerja</a>
+      <a href="#/prices" data-route="prices">Harga</a>
+    </div>
+  </nav>
+</header>
+<main class="wrap" id="app" aria-live="polite"></main>
+<footer class="sitefoot">
+  <div class="wrap foot-in">
+    <div>
+      <strong>NusaStat</strong> — portal statistik Indonesia yang independen.
+      Angka di situs ini merujuk pada publikasi Badan Pusat Statistik (BPS),
+      Kementerian Keuangan, dan Bank Indonesia; setiap angka mencantumkan tahun dan sumbernya.
+    </div>
+    <div class="foot-links">
+      <a href="#/economy">Ekonomi</a>
+      <a href="#/regions">Wilayah</a>
+      <a href="#/prices">Harga</a>
+      <a href="#/">Ringkasan</a>
+    </div>
+  </div>
+  <p class="wrap foot-note">© 2026 NusaStat. Data: BPS, Kemenkeu, Bank Indonesia. Desain dan teks asli NusaStat.</p>
+</footer>
+<script type="module" src="main.js"></script>
+</body>
+</html>
